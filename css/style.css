@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #67ffff;
+}
+body #menu {
+  background-color: black;
+  color: orange;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  right: 5%;
+}
+body #theMenu {
+  color: orange;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+body #theMenu li {
+  margin-right: 20px;
+  margin-top: 22px;
+}
+body #wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+body h1 {
+  margin: 49px 0 11px;
+  text-decoration: underline;
+}
+body img {
+  width: 100%;
+}
+body p {
+  line-height: 1.2;
+}
+body nav {
+  background-color: white;
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+}
+body nav h2 {
+  margin: 10px auto 0;
+  align-self: center;
+}
+body header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/ManAccounting.jpg);
+  padding: 89px 0 60px 0;
+}
+body header h1 {
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+  margin: 60px 5%;
+  color: snow;
+}
+body header figure {
+  margin: 0 5%;
+}
+body header figure img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+}
+body header figure div {
+  margin: 40px 0 0;
+}
+body header figure div h2 {
+  text-align: left;
+  color: snow;
+}
+body header figure div p {
+  text-align: left;
+  color: snow;
+}
+body header figure div a {
+  display: inline-block;
+  align-self: center;
+}
+body header figure div a p {
+  display: inline-block;
+  color: red;
+}
+body header figure div a img {
+  margin: 8px 0 0 8px;
+  width: 30px;
+  height: 30px;
+  float: right;
+  border-radius: 12px;
+}
+body header figure div a img:hover {
+  margin-left: 10px;
+}
+body #home {
+  margin: 0 auto;
+}
+body #home #homie {
+  background: linear-gradient(to right, red, white, white);
+  border-radius: 12px;
+  padding-top: 1px;
+  margin-top: 45px;
+}
+body #home #homer {
+  text-align: center;
+  margin: 50px 30px 49px;
+  text-decoration: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, white, white, red);
+}
+body #home #homer1 {
+  text-align: center;
+  margin: 50px 30px 49px;
+  text-decoration: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, white, white, red);
+}
+body #home .mission-images {
+  display: flex;
+  margin: 0 auto;
+}
+body #home .mission-images .mission {
+  width: 50%;
+  border-radius: 0 0 0 12px;
+}
+body #home .mission-images .mission1 {
+  width: 50%;
+  border-radius: 0 0 12px 0;
+}
+body #home .acctIngSer {
+  background-color: seashell;
+  padding-top: 0;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+}
+body #home .acctIngSer h1 {
+  padding-top: 15px;
+}
+body #home .acctIngSer img {
+  border-radius: 12px;
+}
+body #policy {
+  margin: 0 auto;
+}
+body #policy .polisy1 {
+  background-color: #9e91f0;
+  padding-top: 55px;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+}
+body #policy .polisy1 h1 {
+  padding-top: 12px;
+}
+body #policy .polisy1 img {
+  border-radius: 12px;
+}
+body footer {
+  margin: 0 auto;
+}
+body footer section #follow_us {
+  background-color: #d2ccfc;
+  padding-top: 55px;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+}
+body footer section #follow_us a {
+  text-decoration: none;
+  color: #ff1414;
+}
+body footer section #polisy2 {
+  background-color: #d2ccfc;
+  padding-top: 55px;
+  padding: 0 10px 10px 10px;
+  border-radius: 12px;
+}
+body footer section #polisy2 a {
+  text-decoration: none;
+  color: #ff1414;
+}
+body footer h1 {
+  margin-bottom: 16px;
+}
+body footer .social {
+  display: flex;
+}
+body footer .social img {
+  width: 33px;
+  height: 33px;
+}
+body footer .social:first-of-type {
+  margin-bottom: 20px;
+}
+body footer iframe {
+  width: 300px;
+  height: 250px;
+  border-radius: 12px;
+}
+body #copywrite {
+  background-color: white;
+  margin-top: 33px;
+}
+body #copywrite p {
+  margin: 0;
+  text-align: center;
+  padding: 24.5px 0;
+  align-self: center;
+}
+body #contactNav {
+  position: fixed;
+  top: 0;
+}
+body #contactFooter {
+  margin: 160px 30px;
+}
+body .faqMission {
+  border-radius: 0 0 12px 12px;
+  margin-bottom: -5px;
+}
+body #dil {
+  border-radius: 0 0 12px 12px;
+}
+
+@media (min-width: 768px) {
+  body nav {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    padding: 20px 2.5%;
+    width: 100%;
+    height: 89px;
+    align-items: center;
+  }
+  body nav h2 {
+    margin-right: auto;
+  }
+  body nav ul {
+    display: flex;
+  }
+  body nav ul li {
+    margin-left: 16px;
+  }
+  body header h1 {
+    width: 90%;
+    margin: 60px auto;
+  }
+  body header figure {
+    display: flex;
+  }
+  body header figure div {
+    background-color: rgba(240, 233, 233, 0.8);
+    padding: 0 26px;
+    text-align: center;
+    margin: 0;
+  }
+  body header figure div h2 {
+    margin-top: 26px;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
